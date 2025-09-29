@@ -16,6 +16,8 @@ terraform-modules-vpc-s3/
 │ └── main.tf
 └── README.md
 
+## CLI Installation and Authentication  
+![CLI installation and authentication](./images/CLI%20installation%20and%20authentication.png)
 
 ## Steps
 
@@ -118,6 +120,14 @@ terraform apply
 ```
 
 ---
+
+## Cleanup
+At the end of the project, run __terraform destroy__ to cleanup and avoid unncessary AWS charges. 
+ 
+![Cleanup](./images/cleanup.png)
+![destroy](./images/destroy%20complete.png)
+![bucket deleted](./images/empty_bucket.png)
+
 
 ## Challenges  
 1. Deprecated parameter  
